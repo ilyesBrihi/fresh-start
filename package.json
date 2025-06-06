@@ -2,10 +2,16 @@
   "name": "fresh-start",
   "displayName": "Fresh Start",
   "description": "A fresh start!",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "BrihiIlyesImad",
   "engines": {
     "vscode": "^1.100.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilyesBrihi/fresh-start"
+  },
+  "license": "MIT",
   "categories": [
     "Themes"
   ],

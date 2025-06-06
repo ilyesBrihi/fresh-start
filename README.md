@@ -4,6 +4,10 @@ Fresh Start is a sleek, dark theme for Visual Studio Code, crafted to elevate yo
 
 ## Installation
 
+You can download the extension from the [Fresh Start theme on VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=BrihiIlyesImad.fresh-start&ssr=false#review-details).
+
+Or follow a manual approach:
+
 1. **Clone the repository**: Download the theme to your machine with this command:
 
    ```bash
