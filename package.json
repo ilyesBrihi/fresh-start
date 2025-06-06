@@ -1,0 +1,21 @@
+{
+  "name": "fresh-start",
+  "displayName": "Fresh Start",
+  "description": "A fresh start!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fresh Start",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Fresh Start-color-theme.json"
+      }
+    ]
+  }
+}
