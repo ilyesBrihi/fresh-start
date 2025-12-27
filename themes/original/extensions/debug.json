@@ -1,0 +1,10 @@
+{
+    "colors": {
+        "debugToolBar.background":              "{{bg-surface}}",
+        "editor.stackFrameHighlightBackground": "{{accent-subtle}}",
+        "debugView.exceptionLabelBackground":   "{{error}}",
+        "debugTokenExpression.string":          "{{success}}",
+        "debugTokenExpression.number":          "{{warn}}",
+        "debugTokenExpression.boolean":         "{{warn}}"
+    }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Fresh Start",
+  "display": "Fresh Start",
+  "description": "A VS Code theme with a syntax highlighter for Go!",
+  "version": "1.0.0",
+  "publisher": "BrihiIlyesImad",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "Go",
+    "Fresh Start",
+    "Fresh Start Theme",
+    "Brihi Ilyes Imad"
+  ],
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "type.declaration": {
+      "foreground": "#fcc060ff",
+      "fontStyle": ""
+    },
+    "class.defaultLibrary": {
+      "foreground": "#ffd5fcff",
+      "fontStyle": ""
+    },
+    "interface.defaultLibrary": {
+      "foreground": "#ffd5fcff",
+      "fontStyle": ""
+    },
+    "type.defaultLibrary": {
+      "foreground": "#ffd5fcff",
+      "fontStyle": ""
+    },
+    "namespace.defaultLibrary": {
+      "foreground": "#ffd5fcff",
+      "fontStyle": ""
+    }
+  }
+}

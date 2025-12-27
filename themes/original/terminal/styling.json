@@ -1,0 +1,9 @@
+{
+    "colors": {
+        "terminal.background":          "{{bg-secondary}}",
+        "terminal.foreground":          "{{fg-primary}}",
+        "terminal.selectionBackground": "{{bg-selection}}",
+        "terminal.selectionForeground": "{{fg-white}}",
+        "terminalCursor.foreground":    "{{accent}}"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "colors": {
+        "editor.selectionBackground":           "{{selection-bg}}",
+        "editor.selectionForeground":           "{{fg-white}}",
+        "editor.inactiveSelectionBackground":   "{{selection-bg-inactive}}",
+        "editor.selectionHighlightBackground":  "{{selection-highlight}}",
+        "editor.selectionHighlightBorder":      "{{opacity-transparent}}",
+        "editor.wordHighlightBackground":       "{{word-highlight}}",
+        "editor.wordHighlightStrongBackground": "{{word-highlight-strong}}",
+        "editor.wordHighlightTextBackground":   "{{word-highlight-text}}",
+        "editor.findMatchBackground":           "{{find-match}}",
+        "editor.findMatchForeground":           "{{black}}",
+        "editor.findMatchHighlightBackground":  "{{find-match-highlight}}",
+        "editor.findMatchHighlightForeground":  "{{opacity-transparent}}",
+        "editor.findRangeHighlightBackground":  "{{find-range-highlight}}",
+        "editor.lineHighlightBackground":       "{{line-highlight}}",
+        "editor.lineHighlightBorder":           "{{opacity-transparent}}"
+    }
+}

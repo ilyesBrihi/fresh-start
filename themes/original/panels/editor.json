@@ -1,0 +1,28 @@
+{
+    "colors": {
+        "panel.background":                "{{bg-secondary}}",
+        "panel.border":                    "{{border-secondary}}",
+        "panel.dropBorder":                "{{accent}}",
+        "panelTitle.activeBorder":         "{{accent}}",
+        "panelTitle.activeForeground":     "{{fg-primary}}",
+        "panelTitle.inactiveForeground":   "{{fg-secondary}}",
+        "panelTitle.border":               "{{opacity-transparent}}",
+        "panelTitleBadge.background":      "{{accent}}",
+        "panelTitleBadge.foreground":      "{{bg-surface-dark}}",
+        "panelInput.border":               "{{border-primary}}",
+        "panelSection.border":             "{{border-secondary}}",
+        "panelSection.dropBackground":     "{{accent-faint}}",
+        "panelSectionHeader.background":   "{{bg-surface-dark}}",
+        "panelSectionHeader.foreground":   "{{fg-primary}}",
+        "panelStickyScroll.background":    "{{bg-secondary}}d0",
+        "sideBar.background":              "{{bg-secondary}}",
+        "sideBar.foreground":              "{{fg-secondary}}",
+        "sideBar.border":                  "{{border-secondary}}",
+        "sideBar.dropBackground":          "{{accent-faint}}",
+        "sideBarTitle.foreground":         "{{fg-primary}}",
+        "sideBarSectionHeader.background": "{{sidebar-header}}",
+        "sideBarSectionHeader.foreground": "{{fg-primary}}",
+        "sideBarSectionHeader.border":     "{{border-secondary}}",
+        "sideBarStickyScroll.background":  "{{bg-secondary}}d0"
+    }
+}

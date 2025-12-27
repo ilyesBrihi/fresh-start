@@ -1,0 +1,20 @@
+{
+    "colors": {
+        "terminal.ansiBlack":         "{{terminal-black}}",
+        "terminal.ansiRed":           "{{terminal-red}}",
+        "terminal.ansiGreen":         "{{success}}",
+        "terminal.ansiYellow":        "{{terminal-yellow}}",
+        "terminal.ansiBlue":          "{{info}}",
+        "terminal.ansiMagenta":       "{{terminal-magenta}}",
+        "terminal.ansiCyan":          "{{cyan}}",
+        "terminal.ansiWhite":         "{{fg-primary}}",
+        "terminal.ansiBrightBlack":   "{{fg-muted}}", 
+        "terminal.ansiBrightRed":     "{{terminal-bright-red}}",
+        "terminal.ansiBrightGreen":   "{{terminal-bright-green}}",
+        "terminal.ansiBrightYellow":  "{{terminal-bright-yellow}}",
+        "terminal.ansiBrightBlue":    "{{terminal-bright-blue}}",
+        "terminal.ansiBrightMagenta": "{{terminal-bright-magenta}}",
+        "terminal.ansiBrightCyan":    "{{terminal-bright-cyan}}",
+        "terminal.ansiBrightWhite":   "{{fg-primary}}"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "colors": { 
+        "badge.foreground":       "{{fg-inverse}}",
+        "badge.background":       "{{success}}",
+        "progressBar.background": "{{accent}}"
+    }
+}

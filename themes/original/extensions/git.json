@@ -1,0 +1,9 @@
+{
+    "colors": {
+        "gitDecoration.addedResourceForeground":       "{{success}}",
+        "gitDecoration.modifiedResourceForeground":    "{{warn}}",
+        "gitDecoration.deletedResourceForeground":     "{{error}}",
+        "gitDecoration.untrackedResourceForeground":   "{{cyan}}",
+        "gitDecoration.conflictingResourceForeground": "{{error-conflict}}"
+    }
+}

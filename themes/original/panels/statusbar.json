@@ -1,0 +1,28 @@
+{
+    "colors": {                  
+        "statusBar.background":                   "{{bg-secondary}}",
+        "statusBar.foreground":                   "{{fg-inverse}}",
+        "statusBar.border":                       "{{opacity-transparent}}",
+        "statusBar.debuggingBackground":          "{{bg-secondary}}",
+        "statusBar.debuggingForeground":          "{{fg-secondary}}",
+        "statusBarItem.activeBackground":         "{{glass}}",
+        "statusBarItem.hoverForeground":          "{{fg-white}}",
+        "statusBarItem.hoverBackground":          "{{glass-light}}",
+        "statusBarItem.prominentForeground":      "{{fg-inverse-bright}}",
+        "statusBarItem.prominentBackground":      "{{success}}",
+        "statusBarItem.prominentHoverBackground": "{{success-bright-light}}",
+        "statusBarItem.remoteBackground":         "{{success}}",
+        "statusBarItem.remoteForeground":         "{{fg-inverse-bright}}",
+        "statusBarItem.errorBackground":          "{{error}}",
+        "statusBarItem.errorForeground":          "{{fg-inverse-bright}}",
+        "statusBarItem.warningBackground":        "{{warn}}",
+        "statusBarItem.warningForeground":        "{{fg-inverse-bright}}",
+        "statusBarItem.focusBorder":              "{{accent}}",
+        "statusBar.focusBorder":                  "{{accent-opaque}}",
+        "titleBar.activeBackground":              "{{bg-secondary}}",
+        "titleBar.activeForeground":              "{{fg-quaternary}}",
+        "titleBar.inactiveBackground":            "{{bg-surface-dark}}",
+        "titleBar.inactiveForeground":            "{{fg-muted-light}}",
+        "titleBar.border":                        "{{opacity-transparent}}"
+    }
+}

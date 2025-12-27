@@ -1,0 +1,72 @@
+{
+  "tokenColors": [
+    {
+      "name": "JSON keys",
+      "scope": [
+        "support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-name }}",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "JSON values quotes",
+      "scope": [
+        "punctuation.definition.string.begin.json",
+        "punctuation.definition.string.end.json"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-string }}",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "JSON string values",
+      "scope": [
+        "string.quoted.double.json"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-string }}"
+      }
+    },
+    {
+      "name": "JSON numeric values",
+      "scope": [
+        "constant.numeric.json"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-number }}"
+      }
+    },
+    {
+      "name": "JSON boolean constants",
+      "scope": [
+        "constant.language.boolean.json"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-number }}"
+      }
+    },
+    {
+      "name": "JSON null values",
+      "scope": [
+        "constant.language.null.json"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-number }}"
+      }
+    },
+    {
+      "name": "JSON colons and commas",
+      "scope": [
+        "punctuation.separator.key-value.json",
+        "punctuation.separator.array.json",
+        "punctuation.separator.dictionary.pair.json"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-operator }}"
+      }
+    }
+  ]
+}

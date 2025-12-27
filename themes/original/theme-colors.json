@@ -1,0 +1,171 @@
+{
+  "colors": {
+    "accent": "#ffae57",
+    "accent-opaque": "#ffae57c0",
+    "accent-light": "#ffc078",
+    "accent-faint": "#ffae5740",
+    "accent-medium": "#ffae57a0",
+    "accent-strong": "#ffae57b0",
+    "accent-dim": "#ffae5760",
+    "accent-highlight": "#ffae5770",
+    "accent-pale": "#ffae5780",
+    "accent-subtle": "#ffae5730",
+    
+    "bg-primary": "#12131a",
+    "bg-secondary": "#1a1b26",
+    "bg-secondary-alt": "#1e2027",
+    "bg-tertiary": "#23273c",
+    "bg-surface": "#2c2e3a",
+    "bg-surface-list": "#20222c",
+    "bg-surface-light": "#252733",
+    "bg-surface-lighter": "#303340",
+    "bg-surface-lighter-alpha": "#303340b0",
+    "bg-surface-dark": "#12131a",
+    "bg-surface-darker": "#101116",
+    "bg-hover": "#2a2d3a40",
+    "bg-selection": "#665c40",
+    "bg-selection-alpha": "#665c40a0",
+    "bg-active": "#404657",
+    "bg-active-hover": "#5a5c6c",
+    
+    "fg-primary": "#e6e8e6",
+    "fg-secondary": "#c5c8c6",
+    "fg-tertiary": "#b0b0a5",
+    "fg-quaternary": "#f0f2f0",
+    "fg-muted": "#6c7086",
+    "fg-muted-light": "#7a7a7a",
+    "fg-inactive": "#9e9e90",
+    "fg-inverse": "#0e0f14",
+    "fg-inverse-bright": "#12131a",
+    "fg-white": "#ffffff",
+    "fg-muted-grey": "#4a4e61",
+    "fg-muted-dark": "#4a4a40",
+    "fg-green": "#a8e6a2",
+    
+    "border-primary": "#30302a",
+    "border-secondary": "#222430",
+    "border-tertiary": "#454960",
+    "border-muted": "#35384a",
+    "border-hover": "#ffae57",
+    
+    "success": "#a8e6a2",
+    "success-faint": "#a8e6a215",
+    "success-light": "#a8e6a220",
+    "success-medium": "#a8e6a240",
+    "success-bright": "#a8e6a260",
+    "success-opaque": "#a8e6a2a0",
+    "success-pale": "#a8e6a2c0",
+    "success-bright-light": "#b8f2a8",
+    "success-bright-medium": "#c8f9c2",
+    
+    "error": "#f47f72",
+    "error-light": "#f47f7220",
+    "error-medium": "#f47f7260",
+    "error-opaque": "#f47f72a0",
+    "error-bright": "#ff9f95",
+    "error-bright-alt": "#f47f72c0",
+    "error-faint": "#f47f7218",
+    "error-pale": "#f47f7210",
+    "error-conflict": "#ff7777",
+        
+    "warn": "#ffcb8b",
+    "warn-bright": "#ffdaa0",
+    "warn-opaque": "#ffcb8bc0",
+    
+    "info": "#78dce8",
+    "info-bright": "#9ce2fc",
+    
+    "cyan": "#78dce8",
+    "cyan-bright": "#37eadb",
+    "cyan-bright-light": "#b0f9f1",
+    
+    "green-type": "#26d87f",
+    "green-symbol": "#4ec9b0",
+    "green-support": "#608b4e",
+    
+    "purple": "#d1b4de",
+    "purple-bright": "#e1c4ec",
+    "purple-alt": "#c586c0",
+    
+    "orange-type": "#f4bf6b",
+    "orange-keyword": "#ea8e42",
+    
+    "yellow-type": "#c7e9b5",
+    
+    "tan": "#faddae",
+    "tan-pink": "#fdb7d8",
+    "tan-light": "#ffd6d6",
+    "tan-assignment": "#dd9191",
+    
+    "lime": "#deffbc",
+    
+    "blue-function": "#9cdcfe",
+    "blue-function-bright": "#67caff",
+    
+    "comment": "#767c86",
+    
+    "scrollbar": "#7a7a7a60",
+    "scrollbar-hover": "#7a7a7a80",
+    "scrollbar-active": "#7a7a7aa0",
+    
+    "indent-guide-active": "#ffae57b0",
+    
+    "whitespace": "#2c2e3a",
+    
+    "terminal-black": "#3A3D4C",
+    "terminal-red": "#F47F72",
+    "terminal-yellow": "#FFCB8B",
+    "terminal-magenta": "#D1B4DE",
+    
+    "terminal-bright-red": "#FF9F95",
+    "terminal-bright-green": "#C8F9C2",
+    "terminal-bright-yellow": "#FFDAA0",
+    "terminal-bright-blue": "#9CE2FC",
+    "terminal-bright-magenta": "#E1C4EC",
+    "terminal-bright-cyan": "#B0F9F1",
+    
+    "glass": "#ffffff25",
+    "glass-light": "#ffffff18",
+    "glass-subtle": "#ffffff1a",
+    "glass-minimal": "#ffffff06",
+
+    "shadow": "#ffb3001b",
+    "shadow-tab": "#ffb300a0",
+        
+    "keyboard-bg": "#4a4a4060",
+    "keyboard-border": "#60605080",
+    "keyboard-border-bottom": "#606050",
+
+    "selection-bg": "#4a5066",
+    "selection-bg-inactive": "#4a506690",
+    "selection-highlight": "#a8e6a225",
+    
+    "word-highlight": "#a8e6a220",
+    "word-highlight-strong": "#ffae5725",
+    "word-highlight-text": "#5a607750",
+    
+    "find-match": "#ffae5770",
+    "find-match-highlight": "#a8e6a250",
+    "find-range-highlight": "#4a506670",
+    "line-highlight": "#2a2d38",
+    
+    "black": "#000000",
+    "opacity-transparent": "#00000000",
+    "opacity-muted": "#e6e8e670",
+    "sidebar-header": "#151620",
+
+
+    "syntax-keyword": "#d9a4ffff",
+    "syntax-name": "#fcc060ff",
+    "syntax-method-name": "#7fa1ffff",
+    "syntax-import": "#ffcea8ff",
+    "syntax-builtin-type": "#60ffa5ff",
+    "syntax-comment": "#75787cff",
+    "syntax-string": "#d9ffb2e9",
+    "syntax-docstring": "#c3d2b5e9",
+    "syntax-number": "#fcbc92ff",
+    "syntax-variable": "#e9ecefff",
+    "syntax-label": "#ffd5fcff",
+    "syntax-operator": "#c5ffedff"
+  }
+}

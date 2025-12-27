@@ -1,0 +1,25 @@
+{
+    "colors": {
+        "dropdown.background":               "{{bg-surface}}",
+        "dropdown.listBackground":           "{{bg-surface-list}}",
+        "dropdown.border":                   "{{border-primary}}",
+        "dropdown.foreground":               "{{fg-primary}}",
+        "input.background":                  "{{bg-surface}}",
+        "input.border":                      "{{border-primary}}",
+        "input.foreground":                  "{{fg-primary}}",
+        "input.placeholderForeground":       "{{fg-muted}}",
+        "inputOption.activeBackground":      "{{accent-faint}}",
+        "inputOption.activeBorder":          "{{accent-medium}}",
+        "inputOption.activeForeground":      "{{accent}}",
+        "inputOption.hoverBackground":       "{{glass-subtle}}",
+        "inputValidation.errorBackground":   "{{error-light}}",
+        "inputValidation.errorForeground":   "{{error}}",
+        "inputValidation.errorBorder":       "{{error-medium}}",
+        "inputValidation.infoBackground":    "{{success-light}}",
+        "inputValidation.infoForeground":    "{{success}}",
+        "inputValidation.infoBorder":        "{{success-medium}}",
+        "inputValidation.warningBackground": "{{accent-faint}}",
+        "inputValidation.warningForeground": "{{accent}}",
+        "inputValidation.warningBorder":     "{{accent-pale}}"
+    }
+}

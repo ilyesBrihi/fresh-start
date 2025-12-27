@@ -1,0 +1,332 @@
+{
+  "tokenColors": [
+    {
+      "name": "JS/TS keywords",
+      "scope": [
+        "keyword.control",
+        "keyword.control.import.ts",
+        "keyword.control.from.ts",
+        "keyword.control.export.ts",
+        "keyword.control.as.ts",
+        "keyword.control.type.ts",
+        "keyword.control.default.ts",
+        "keyword.control.import.ts",
+        "keyword.control.export.ts",
+        "keyword.control.from.ts",
+        "keyword.operator",
+        "keyword.operator.new",
+        "storage.type",
+        "storage.type.ts",
+        "storage.type.class.ts",
+        "storage.type.interface.ts",
+        "storage.type.enum.ts",
+        "storage.type.type.ts",
+        "storage.type.function",
+        "storage.type.namespace.ts",
+        "storage.modifier",
+        "storage.modifier.ts",
+        "storage.modifier.async.ts",
+        "storage.modifier.public.ts",
+        "storage.modifier.private.ts",
+        "storage.modifier.protected.ts",
+        "storage.modifier.static.ts",
+        "storage.modifier.readonly.ts",
+        "storage.modifier.export.ts",
+        "storage.modifier.default.ts",
+        "storage.modifier.declare.ts",
+        "storage.modifier.abstract.ts",
+        "storage.modifier.override.ts",
+        "storage.modifier.optional.ts",
+        "storage.type.js",
+        "storage.type.ts",
+        "keyword.control.js",
+        "keyword.control.import.js",
+        "keyword.control.from.js",
+        "keyword.control.export.js",
+        "keyword.control.as.js",
+        "keyword.control.type.js",
+        "keyword.control.default.js",
+        "keyword.operator.js",
+        "storage.modifier.js",
+        "storage.modifier.async.js",
+        "storage.modifier.public.js",
+        "storage.modifier.private.js",
+        "storage.modifier.protected.js",
+        "storage.modifier.static.js",
+        "storage.modifier.readonly.js",
+        "storage.modifier.export.js",
+        "storage.modifier.default.js",
+        "storage.modifier.declare.js",
+        "storage.modifier.abstract.js",
+        "storage.modifier.override.js",
+        "storage.modifier.optional.js",
+        "storage.type.class.js"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-keyword }}",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "JS/TS names",
+      "scope": [
+        "entity.name.type",
+        "entity.name.type.ts",
+        "entity.name.type.class",
+        "entity.name.type.enum",
+        "entity.name.type.interface",
+        "entity.name.type.module.ts",
+        "entity.name.type.alias.ts",
+        "entity.name.function.ts",
+        "entity.other.inherited-class.ts",
+        "entity.name.type.js",
+        "entity.name.type.class.js",
+        "entity.name.type.enum.js",
+        "entity.name.type.interface.js",
+        "entity.name.type.module.js",
+        "entity.name.type.alias.js",
+        "entity.name.function.js",
+        "entity.other.inherited-class.js"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-name }}",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "JS/TS methods names",
+      "scope": [
+        "entity.name.function.member",
+        "entity.name.function.member.ts",
+        "entity.name.function.member.js"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-method-name }}",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "JS/TS packages and imports names",
+      "scope": [
+        "variable.other.readwrite.alias.ts",
+        "meta.import.ts",
+        "meta.block.ts",
+        "meta.export.ts",
+        "variable.other.import.ts",
+        "variable.other.readwrite.alias.js",
+        "meta.import.js",
+        "meta.block.js",
+        "meta.export.js",
+        "variable.other.import.js"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-import }}",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "JS/TS built-in types",
+      "scope": [
+        "support.type.primitive.ts",
+        "support.type.builtin.ts",
+        "support.type.object.ts",
+        "support.type.array.ts",
+        "support.type.boolean.ts",
+        "support.type.string.ts",
+        "support.type.number.ts",
+        "entity.name.type.parameter",
+        "support.type.primitive.js",
+        "support.type.builtin.js",
+        "support.type.object.js",
+        "support.type.array.js",
+        "support.type.boolean.js",
+        "support.type.string.js",
+        "support.type.number.js",
+        "entity.name.type.parameter.js"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-builtin-type }}",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "JS/TS comments",
+      "scope": [
+        "comment.line.double-slash.ts",
+        "comment.block.ts",
+        "comment.block.documentation.ts",
+        "punctuation.definition.comment.ts",
+        "comment.line.double-slash.js",
+        "comment.block.js",
+        "comment.block.documentation.js",
+        "punctuation.definition.comment.js"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-comment }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JS/TS strings",
+      "scope": [
+        "string.quoted.single.ts",
+        "string.quoted.double.ts",
+        "string.template.ts",
+        "string.quoted.single.js",
+        "string.quoted.double.js",
+        "string.template.js",
+        "entity.name.function.tagged-template.ts",
+        "entity.name.function.tagged-template.js",
+        "punctuation.definition.string.begin.ts",
+        "punctuation.definition.string.end.ts",
+        "punctuation.definition.string.begin.js",
+        "punctuation.definition.string.end.js",
+        "string.regexp.ts",
+        "string.regexp.js"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-string }}"
+      }
+    },
+    {
+      "name": "JS/TS constants and numbers",
+      "scope": [
+        "constant.numeric.ts",
+        "constant.language.boolean.ts",
+        "constant.language.null.ts",
+        "constant.language.undefined.ts",
+        "constant.numeric.js",
+        "constant.language.boolean.js",
+        "constant.language.null.js",
+        "constant.language.undefined.js",
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts",
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js",
+        "keyword.operator.quantifier.regexp",
+        "keyword.operator.anchor.regexp",
+        "keyword.control.anchor.regexp",
+        "keyword.control.assertion.regexp",
+        "constant.character.escape.ts",
+        "constant.character.escape.js"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-number }}"
+      }
+    },
+    {
+      "name": "JS/TS variables",
+      "scope": [
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.js",
+        "variable.other.object.ts",
+        "variable.other.object.js",
+        "variable.other.property.ts",
+        "variable.other.property.js",
+        "entity.name.type.module.js"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-variable }}"
+      }
+    },
+    {
+      "name": "JS/TS specials",
+      "scope": [
+        "variable.language.this.ts",
+        "variable.language.super.ts",
+        "variable.language.this.js",
+        "variable.language.super.js",
+        "support.class.ts",
+        "support.class.js",
+        "support.class.promise.ts",
+        "support.class.promise.js",
+        "support.constant.property.ts",
+        "support.constant.property.js",
+        "support.function.ts",
+        "support.function.js",
+        "variable.other.standard",
+        "constant.character.escape.backslash.regexp",
+        "constant.other.character-class.range.regexp",
+        "constant.other.character-class.set.regexp"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-label }}"
+      }
+    },
+    {
+      "name": "JS/TS operators and punctuation",
+      "scope": [
+        "keyword.operator.arithmetic.ts",
+        "keyword.operator.assignment.ts",
+        "keyword.operator.comparison.ts",
+        "keyword.operator.logical.ts",
+        "keyword.operator.bitwise.ts",
+        "keyword.operator.ternary.ts",
+        "punctuation.separator.ts",
+        "punctuation.terminator.ts",
+        "punctuation.definition.array.ts",
+        "punctuation.definition.object.ts",
+        "keyword.operator.arithmetic.js",
+        "keyword.operator.assignment.js",
+        "keyword.operator.comparison.js",
+        "keyword.operator.logical.js",
+        "keyword.operator.bitwise.js",
+        "keyword.operator.ternary.js",
+        "punctuation.separator.js",
+        "punctuation.terminator.js",
+        "punctuation.definition.array.js",
+        "punctuation.definition.object.js",
+        "punctuation.terminator.statement.ts",
+        "punctuation.terminator.statement.js",
+        "keyword.operator.type.ts",
+        "keyword.operator.type.js",
+        "keyword.operator.type.annotation.ts",
+        "keyword.operator.type.annotation.js",
+        "punctuation.definition.typeparameters.begin.ts",
+        "punctuation.definition.typeparameters.end.ts",
+        "punctuation.definition.typeparameters.begin.js",
+        "punctuation.definition.typeparameters.end.js",
+        "keyword.operator.assignment.ts",
+        "keyword.operator.comparison.ts",
+        "keyword.operator.logical.ts",
+        "keyword.operator.bitwise.ts",
+        "keyword.operator.ternary.ts",
+        "punctuation.separator.ts",
+        "punctuation.terminator.ts",
+        "punctuation.definition.array.ts",
+        "punctuation.definition.object.ts",
+        "keyword.operator.assignment.js",
+        "keyword.operator.comparison.js",
+        "keyword.operator.logical.js",
+        "keyword.operator.bitwise.js",
+        "keyword.operator.ternary.js",
+        "punctuation.separator.js",
+        "punctuation.terminator.js",
+        "punctuation.definition.array.js",
+        "punctuation.definition.object.js",
+        "storage.type.function.arrow.ts",
+        "storage.type.function.arrow.js",
+        "keyword.operator.assignment.compound.ts",
+        "keyword.operator.assignment.compound.js",
+        "keyword.operator.relational.ts",
+        "keyword.operator.relational.js",
+        "keyword.operator.bitwise.shift.ts",
+        "keyword.operator.bitwise.shift.js",
+        "punctuation.accessor.optional.ts",
+        "punctuation.accessor.optional.js",
+        "keyword.operator.increment.ts",
+        "keyword.operator.increment.js",
+        "keyword.operator.decrement.ts",
+        "keyword.operator.decrement.js",
+        "punctuation.definition.block.tag.jsdoc",
+        "keyword.operator.rest.ts",
+        "keyword.operator.rest.js",
+        "keyword.operator.spread.ts",
+        "keyword.operator.spread.js"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-operator }}"
+      }
+    }
+  ]
+}

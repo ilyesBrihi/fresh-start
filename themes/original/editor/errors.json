@@ -1,0 +1,8 @@
+{
+    "colors": { 
+        "editorError.foreground":        "{{error}}",
+        "editorWarning.foreground":      "{{warn}}",
+        "editorInfo.foreground":         "{{info}}",
+        "editorUnnecessaryCode.opacity": "{{opacity-muted}}"
+    }
+}

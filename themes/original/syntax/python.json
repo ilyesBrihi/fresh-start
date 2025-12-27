@@ -1,0 +1,141 @@
+{
+  "tokenColors": [
+    {
+      "name": "Python keywords",
+      "scope": [
+        "keyword.control.flow.python",
+        "keyword.control.import.python",
+        "storage.modifier.declaration.python",
+        "storage.type.class.python",
+        "storage.type.function.python",
+        "storage.type.function.async.python",
+        "storage.type.function.lambda.python",
+        "keyword.operator.logical.python"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-keyword }}",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Python names",
+      "scope": [
+        "entity.name.type.class"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-name }}",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Go methods names",
+      "scope": [
+        "entity.name.function",
+        "meta.function.lambda.parameters.python",
+        "meta.lambda-function.python",
+        "support.function.magic.python"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-method-name }}",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Python namespaces",
+      "scope": [
+        "entity.name.namespace"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-import }}",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Python comments",
+      "scope": [
+        "comment.line.number-sign.python",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-comment }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python strings",
+      "scope": [
+        "string.quoted.single.python",
+        "punctuation.definition.string.begin.python",
+        "punctuation.definition.string.end.python",
+        "string.quoted.single.python",
+        "string.interpolated.python",
+        "storage.type.string.python"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-string }}"
+      }
+    },
+    {
+      "name": "Python docstrings",
+      "scope": [
+        "string.quoted.docstring.multi.python",
+        "string.quoted.docstring.single.python"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-docstring }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python constants and numbers",
+      "scope": [
+        "constant.numeric",
+        "constant.language.boolean",
+        "constant.language.null",
+        "constant.language",
+        "support.constant"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-number }}"
+      }
+    },
+    {
+      "name": "Python variables",
+      "scope": [
+        "meta.function.parameters.python",
+        "meta.function.python",
+        "meta.fstring.python"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-variable }}"
+      }
+    },
+    {
+      "name": "Python specials",
+      "scope": [
+        "support.variable.magic.python",
+        "variable.parameter.function.language.special.self.python"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-label }}"
+      }
+    },
+    {
+      "name": "Python operators and punctuation",
+      "scope": [
+        "punctuation.separator",
+        "meta.function.python",
+        "punctuation.section.class.begin.python",
+        "keyword.operator.arithmetic.python",
+        "meta.lambda-function.python",
+        "keyword.operator.assignment.python",
+        "keyword.operator.comparison.python",
+        "keyword.operator.bitwise.python",
+        "keyword.operator.unpacking.parameter.python"
+      ],
+      "settings": {
+        "foreground": "{{ syntax-operator }}"
+      }
+    }
+  ]
+}

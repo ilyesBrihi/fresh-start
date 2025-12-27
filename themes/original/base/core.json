@@ -1,0 +1,14 @@
+{
+    "colors": {
+        "focusBorder":           "{{accent-opaque}}",
+        "foreground":            "{{fg-primary}}",
+        "disabledForeground":    "{{fg-muted}}",
+        "widget.border":         "{{border-primary}}",
+        "widget.shadow":         "{{shadow}}",
+        "selection.background":  "{{bg-selection}}",
+        "descriptionForeground": "{{fg-tertiary}}",
+        "errorForeground":       "{{error}}",
+        "icon.foreground":       "{{fg-secondary}}",
+        "sash.hoverBorder":      "{{accent}}"
+    }
+}

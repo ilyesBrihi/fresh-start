@@ -1,0 +1,15 @@
+{
+    "colors": {  
+        "editorIndentGuide.background1":                       "{{border-tertiary}}",
+        "editorIndentGuide.activeBackground1":                 "{{indent-guide-active}}",
+        "editorBracketMatch.background":                       "{{success-medium}}",
+        "editorBracketMatch.border":                           "{{opacity-transparent}}",
+        "editorBracketHighlight.foreground1":                  "{{warn}}",
+        "editorBracketHighlight.foreground2":                  "{{warn}}",
+        "editorBracketHighlight.foreground3":                  "{{warn}}",
+        "editorBracketHighlight.foreground4":                  "{{warn}}",
+        "editorBracketHighlight.foreground5":                  "{{warn}}",
+        "editorBracketHighlight.foreground6":                  "{{warn}}",
+        "editorBracketHighlight.unexpectedBracket.foreground": "{{error}}"
+    }
+}

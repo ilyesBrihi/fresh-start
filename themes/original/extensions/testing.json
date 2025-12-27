@@ -1,0 +1,9 @@
+{
+    "colors": {
+        "testing.iconPassed":          "{{success}}",
+        "testing.iconFailed":          "{{error}}",
+        "testing.iconQueued":          "{{warn}}",
+        "testing.coveredBackground":   "{{success-faint}}",
+        "testing.uncoveredBackground": "{{error-pale}}"
+    }
+}

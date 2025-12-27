@@ -1,0 +1,8 @@
+{
+    "colors": {
+        "scrollbar.shadow":                 "{{opacity-transparent}}",
+        "scrollbarSlider.activeBackground": "{{scrollbar-active}}",
+        "scrollbarSlider.background":       "{{scrollbar}}",
+        "scrollbarSlider.hoverBackground":  "{{scrollbar-hover}}"
+    }
+}

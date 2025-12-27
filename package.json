@@ -1,11 +1,16 @@
 {
   "name": "fresh-start",
   "displayName": "Fresh Start",
-  "description": "A fresh start!",
-  "version": "1.0.0",
+  "description": "A clean dark theme for VS Code with refined syntax highlighting for Go, Python, TypeScript, JavaScript, JSON, and YAML",
+  "version": "2.0.0",
+  "type": "module",
   "publisher": "BrihiIlyesImad",
+  "icon": "./assets/fresh-start.png",
   "engines": {
     "vscode": "^1.100.0"
+  },
+  "scripts": {
+    "build-theme": "node scripts/build.js"
   },
   "repository": {
     "type": "git",
@@ -15,13 +20,26 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "color theme",
+    "go",
+    "python",
+    "typescript",
+    "javascript",
+    "syntax highlighting"
+  ],
   "contributes": {
     "themes": [
       {
         "label": "Fresh Start",
         "uiTheme": "vs-dark",
-        "path": "./themes/Fresh Start-color-theme.json"
+        "path": "./themes/original/fresh-start.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3"
   }
 }

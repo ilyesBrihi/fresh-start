@@ -1,0 +1,6 @@
+{
+    "colors": {
+        "window.activeBorder":   "{{bg-secondary}}",
+        "window.inactiveBorder": "{{bg-surface-darker}}"
+    }
+}

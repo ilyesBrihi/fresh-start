@@ -1,0 +1,27 @@
+{
+    "colors": {
+        "toolbar.hoverBackground":         "{{bg-surface-lighter}}",
+        "toolbar.hoverOutline":            "{{opacity-transparent}}",
+        "toolbar.activeBackground":        "{{bg-active}}",
+        "button.background":               "{{accent}}",
+        "button.foreground":               "{{fg-inverse}}",
+        "button.border":                   "{{opacity-transparent}}",
+        "button.separator":                "{{fg-inverse}}",
+        "button.hoverBackground":          "{{accent-light}}",
+        "button.secondaryForeground":      "{{fg-primary}}",
+        "button.secondaryBackground":      "{{bg-active}}",
+        "button.secondaryHoverBackground": "{{bg-active-hover}}",
+        "checkbox.background":             "{{bg-surface-lighter}}",
+        "checkbox.foreground":             "{{fg-primary}}",
+        "checkbox.border":                 "{{border-tertiary}}",
+        "checkbox.selectBackground":       "{{success}}",
+        "checkbox.selectBorder":           "{{success}}",
+        "radio.activeForeground":          "{{success}}",
+        "radio.activeBackground":          "{{bg-secondary}}",
+        "radio.activeBorder":              "{{success}}",
+        "radio.inactiveForeground":        "{{fg-tertiary}}",
+        "radio.inactiveBackground":        "{{bg-surface-lighter}}",
+        "radio.inactiveBorder":            "{{border-tertiary}}",
+        "radio.inactiveHoverBackground":   "{{bg-surface-lighter}}"
+    }
+}

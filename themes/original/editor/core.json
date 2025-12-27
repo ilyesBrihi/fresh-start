@@ -1,0 +1,15 @@
+{
+  "colors": {
+    "editor.background":                 "{{bg-primary}}",
+    "editor.foreground":                 "{{fg-primary}}",
+    "editor.lineHighlightBackground":    "{{bg-hover}}",
+    "editor.lineHighlightBorder":        "{{opacity-transparent}}",
+    "editorCursor.foreground":           "{{accent}}",
+    "editorCursor.background":           "{{fg-primary}}",
+    "editorLineNumber.foreground":       "{{fg-muted}}",
+    "editorLineNumber.activeForeground": "{{fg-green}}",
+    "editorLineNumber.dimmedForeground": "{{fg-muted-grey}}",
+    "editorWhitespace.foreground":       "{{whitespace}}",
+    "editorOverviewRuler.border":        "{{border-secondary}}"
+  }
+}

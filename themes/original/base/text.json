@@ -1,0 +1,12 @@
+{
+    "colors": {
+        "textBlockQuote.background": "{{bg-surface-lighter}}",
+        "textBlockQuote.border":     "{{border-tertiary}}",
+        "textCodeBlock.background":  "{{bg-tertiary}}",
+        "textLink.activeForeground": "{{success}}",
+        "textLink.foreground":       "{{success-pale}}",
+        "textPreformat.foreground":  "{{warn}}",
+        "textPreformat.background":  "{{bg-surface}}",
+        "textSeparator.foreground":  "{{fg-muted-dark}}"
+    } 
+}

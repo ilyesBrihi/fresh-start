@@ -1,0 +1,24 @@
+{
+    "colors": {
+        "editorGutter.background":                "{{bg-primary}}",
+        "editorGutter.modifiedBackground":        "{{accent-dim}}",
+        "editorGutter.addedBackground":           "{{success-bright}}",
+        "editorGutter.deletedBackground":         "{{error-medium}}",
+        "editorOverviewRuler.background":         "{{bg-secondary}}",
+        "editorOverviewRuler.border":             "{{border-secondary}}",
+        "editorOverviewRuler.modifiedForeground": "{{accent-medium}}",
+        "editorOverviewRuler.addedForeground":    "{{success-opaque}}",
+        "editorOverviewRuler.deletedForeground":  "{{error-opaque}}",
+        "editorOverviewRuler.errorForeground":    "{{error}}",
+        "editorOverviewRuler.warningForeground":  "{{warn}}",
+        "editorOverviewRuler.infoForeground":     "{{info}}",
+        "minimap.background":                     "{{bg-secondary}}",
+        "minimap.findMatchHighlight":             "{{accent-medium}}",
+        "minimap.selectionHighlight":             "{{bg-selection-alpha}}",
+        "minimap.errorHighlight":                 "{{error-bright-alt}}",
+        "minimap.warningHighlight":               "{{warn-opaque}}",
+        "minimapGutter.addedBackground":          "{{success-opaque}}",
+        "minimapGutter.modifiedBackground":       "{{accent-medium}}",
+        "minimapGutter.deletedBackground":        "{{error-opaque}}"
+    }
+}
